@@ -1,7 +1,7 @@
 /**
  * @file main.cpp
  *
- * This is a generic C++ main file.
+ * This is a simple hello world program.
  *
  * @author Michael John Decker, Ph.D. <mdecke@bsgu.edu>
  */
