@@ -10,18 +10,16 @@
 
 //global variable;
 
-void unique_id() {
+int unique_id() {
     static int id = 0;
-    std::cout << "id: " << id << '\n';
-    ++id;
-
+    return id++;
 }
 
-int main(int argc, char * argv[]) {
+int main() {
 
-    unique_id();
-    unique_id();
-    unique_id();
+    std::cout << "id: " << unique_id() << '\n';
+    std::cout << "id: " << unique_id() << '\n';
+    std::cout << "id: " << unique_id() << '\n';
 
     return 0;
 }
