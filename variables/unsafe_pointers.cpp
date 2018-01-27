@@ -11,6 +11,10 @@
 
 int main(int argc, char * argv[]) {
 
+    char number[] = { "123"};
+    char * number_plus_one = number + 1;
+    std::cout << number_plus_one << '\n';
+
     int integers[5] = { 0x65666768, 92, 4, 5, 0x2A };
     for(int integer : integers) {
         std::cout << integer << ' ';
