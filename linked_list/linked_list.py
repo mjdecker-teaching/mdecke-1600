@@ -70,7 +70,8 @@ class linked_list :
     #  @returns the length of the linked list 
     def __len__(self) : pass
 
-    ## implements Python sequence-style equality and less-then, respectively
+    ## implements Python sequence-style equality and less-then 
+    #  (on the items held and not the nodes), respectively
     #  Ensures other is another linked list, if not assertion fail
     #  @returns True if equal/less-than, False otherwise
     def __eq__(self, other) : pass
